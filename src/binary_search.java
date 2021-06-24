@@ -11,6 +11,9 @@ public class binary_search {
 
         // sorts array elements in ascending order
         sortArrayElements(array);
+        
+        // print array elements line by line
+        printArrayElements(array);
 
         // searches for 5 in array
         binarySearch(array, 5);
@@ -28,6 +31,10 @@ public class binary_search {
     // sorts array elements in ascending order
     public static void sortArrayElements(int[] array) {
         Arrays.sort(array);
+    }
+    
+    // print array elements line by line
+    public static void printArrayElements(int[] array) {
         for (int element : array) {
             System.out.println(element);
         }
